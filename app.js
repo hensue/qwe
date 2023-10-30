@@ -50,11 +50,11 @@ app.use('/api/download/:filename', (req, res) => {
 });
 
 
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 
-app.use("/api/cars/", require("./routes/carsRoute"));
-app.use("/api/users/", require("./routes/usersRoute"));
-app.use("/api/bookings/", require("./routes/bookingsRoute"));
+// app.use("/api/cars/", require("./routes/carsRoute"));
+// app.use("/api/users/", require("./routes/usersRoute"));
+// app.use("/api/bookings/", require("./routes/bookingsRoute"));
 
 // app.use(express.static("public"))
 
